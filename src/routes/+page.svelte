@@ -3,6 +3,7 @@
     import Levels from './Levels.svelte';
     import { base } from "$app/paths";
     import Concepts from "./Concepts.svelte";
+    import Footer from "./Footer.svelte";
 </script>
 
 <div class="hero min-h-screen" style="background-image: url({base}/save-the-date.png);">
@@ -18,3 +19,5 @@
 <div>
     <Concepts/>
 </div>
+
+<Footer/>
