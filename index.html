@@ -2,18 +2,18 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./bazz2023-svelte/favicon.png" />
+		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./bazz2023-svelte/_app/immutable/assets/_layout.da9151ec.css" rel="stylesheet">
-		<link rel="modulepreload" href="./bazz2023-svelte/_app/immutable/entry/start.67eda93c.js">
-		<link rel="modulepreload" href="./bazz2023-svelte/_app/immutable/chunks/index.847936d9.js">
-		<link rel="modulepreload" href="./bazz2023-svelte/_app/immutable/chunks/singletons.6f9fc42e.js">
-		<link rel="modulepreload" href="./bazz2023-svelte/_app/immutable/entry/app.4ace955b.js">
-		<link rel="modulepreload" href="./bazz2023-svelte/_app/immutable/entry/_layout.svelte.626ca776.js">
-		<link rel="modulepreload" href="./bazz2023-svelte/_app/immutable/entry/_layout.js.984db11e.js">
-		<link rel="modulepreload" href="./bazz2023-svelte/_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="./bazz2023-svelte/_app/immutable/entry/_page.svelte.4c20257c.js">
+		<link href="./_app/immutable/assets/_layout.da9151ec.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.090f28b9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.847936d9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.057b005d.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.75f796a3.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.626ca776.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.js.984db11e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.da46b06b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_page.svelte.4c20257c.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -40,20 +40,19 @@
 			
 			<script>
 				{
-					__sveltekit_12siavz = {
+					__sveltekit_16ym20n = {
 						env: {},
-						assets: "/bazz2023-svelte",
-						base: new URL("./bazz2023-svelte", location).pathname,
+						base: new URL(".", location).pathname.slice(0, -1),
 						element: document.currentScript.parentElement
 					};
 
 					const data = [null,null];
 
 					Promise.all([
-						import("./bazz2023-svelte/_app/immutable/entry/start.67eda93c.js"),
-						import("./bazz2023-svelte/_app/immutable/entry/app.4ace955b.js")
+						import("./_app/immutable/entry/start.090f28b9.js"),
+						import("./_app/immutable/entry/app.75f796a3.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_12siavz.element, {
+						kit.start(app, __sveltekit_16ym20n.element, {
 							node_ids: [0, 2],
 							data,
 							form: null,
