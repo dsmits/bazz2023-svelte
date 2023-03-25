@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v1
+      - name: npm install
+        run: npm install
       - name: build pages
         run: npm run build
       
