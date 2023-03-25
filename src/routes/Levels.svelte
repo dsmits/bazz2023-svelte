@@ -1,4 +1,4 @@
-LEVELS:
+<h1>LEVELS</h1>
 <p>
 Note for enthusiastic & passionate learners:
 KICK ASS level & KICK ASS PRO are oriented towards enthusiastic dancers and passionate learners that want a total immersion of various Social and Club dance styles throughout this weekend! These levels are available only within a FULL PASS package

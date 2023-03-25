@@ -1,5 +1,4 @@
-
-CONCEPTS @ BAZZ
+<h1>Concepts</h1>
 
 BAZZ Lab is focused on a crossover between two different dance styles. One Jazz teacher, and one teacher of another dance style will be guiding these sessions together. Let's explore existing links between Jazz and its contemporary descendant dance styles, let's celebrate their similarities and differences! (Included in all class passes)
 
