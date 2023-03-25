@@ -1,3 +1,7 @@
+<script>
+    import Description from './Description.svelte'
+</script>
+
 <div class="hero min-h-screen" style="background-image: url(/save-the-date.png);">
     <div class="hero-overlay bg-transparent/0"></div>
 </div>
@@ -12,4 +16,7 @@
             <li><a>Item 2</a></li>
         </ul>
     </div>
+</div>
+<div>
+    <Description/>
 </div>
