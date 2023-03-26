@@ -1,5 +1,9 @@
 const config = {
-    content: ["./src/**/*.{html,js,svelte,ts}"],
+    content: [
+        "./src/**/*.{html,js,svelte,ts}",
+        ".nojekyll",
+        "CNAME"
+    ],
 
     theme: {
         extend: {},
