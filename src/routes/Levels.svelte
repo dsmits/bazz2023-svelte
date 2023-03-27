@@ -4,7 +4,7 @@
         {'title': 'KICK ASS', 'description': 'KICK ASS is recommended for INT/INT+. You\'re comfortable with weight shifts and moving through space. You\'re familiar with most of the basic vocabulary, but some pieces are missing. You\'re still searching to expand your knowledge on basics, transitions and body awareness. You need more guidance around improvisation and generally throughout the class, but you\'re ready to push yourself outside of your comfort zone and finish the weekend like a Bad Ass.'},
         {'title': 'BAZZ PRO', 'description': 'BAZZ PRO is recommended for ADV/ADV+ dancers with good body awareness, body control, and fluent improvisation skills, who want to challenge their current limits. You easily follow combinations, you\'re enthusiastic about exploring intricate rhythms, techniques and movement in greater depth, while adding your own voice to it. You\'re comfortable with a faster pace of learning, you\'re fluent in improvisation but want to level it up like pro!\n'},
             ]
-    let backgrounds = ['bg-primary', 'bg-secondary']
+    let backgrounds = ['bg-primary', 'bg-secondary', 'bg-accent']
 </script>
 
 <h1>LEVELS</h1>
@@ -14,7 +14,7 @@ KICK ASS level & KICK ASS PRO are oriented towards enthusiastic dancers and pass
 </p>
 
 {#each descriptions as description, i}
-<div class="card bg-base-100 shadow-xl {backgrounds[i%2]}">
+<div class="card shadow-xl {backgrounds[i%backgrounds.length]}">
     <div class="card-body">
         <h2 class="card-title">
             {description.title}
