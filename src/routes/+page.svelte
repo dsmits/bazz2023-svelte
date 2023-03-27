@@ -12,7 +12,6 @@
     <div class="hero-overlay bg-transparent/0"></div>
 </div>
 <div class="divider"></div>
-
 <div class="md:container md:mx-auto px-4 ">
     {#each sections as section}
         <div class="flex flex-col place-items-center">
