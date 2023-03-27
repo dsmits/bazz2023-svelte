@@ -7,13 +7,14 @@
     let backgrounds = ['bg-primary', 'bg-secondary', 'bg-accent']
 </script>
 
-<h1>LEVELS</h1>
+<h1 class="text-center">LEVELS</h1>
 <p>
 Note for enthusiastic & passionate learners:
 KICK ASS level & KICK ASS PRO are oriented towards enthusiastic dancers and passionate learners that want a total immersion of various Social and Club dance styles throughout this weekend! These levels are available only within a FULL PASS package
 </p>
 
 {#each descriptions as description, i}
+    <div class="p-2">
 <div class="card shadow-xl {backgrounds[i%backgrounds.length]}">
     <div class="card-body">
         <h2 class="card-title">
@@ -22,4 +23,5 @@ KICK ASS level & KICK ASS PRO are oriented towards enthusiastic dancers and pass
         <p>{description.description} </p>
 
     </div></div>
+    </div>
     {/each}

@@ -1,4 +1,6 @@
-<h1>Welcome to BAZZ!</h1>
+
+<h1 class="text-center">Welcome to BAZZ!</h1>
+
 <p>Bad Ass Jazz, a place of sharing, learning, inspiration and celebration of human
     expression through dance.
 </p>
