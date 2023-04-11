@@ -19,16 +19,18 @@
     <div class="hero-overlay bg-transparent/0"></div>
 </div>
 <div class="navbar bg-primary">
-
-    <ul class="menu menu-horizontal">
+    <div class="navbar-start"></div>
+<div class="navbar-center">
+    <ul class="menu menu-vertical lg:menu-horizontal items-center">
         {#each sections as section}
             <li><a href="#{section.name}">{section.name}</a></li>
         {/each}
     </ul>
-
+</div>
+    <div class="navbar-end"></div>
 </div>
 
-<div class="text-2xl">
+<div class="text-2xl p-2">
     <div class="md:container md:mx-auto p-2">
         {#each sections as section}
             <div id="{section.name}" class="flex flex-col place-items-center">
