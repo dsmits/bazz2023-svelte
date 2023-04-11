@@ -1925,11 +1925,8 @@ html {
 .contents {
   display: contents;
 }
-.h-20 {
-  height: 5rem;
-}
-.h-\[50rem\] {
-  height: 50rem;
+.max-h-full {
+  max-height: 100%;
 }
 .min-h-screen {
   min-height: 100vh;
