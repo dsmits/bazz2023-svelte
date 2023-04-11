@@ -1925,6 +1925,9 @@ html {
 .contents {
   display: contents;
 }
+.h-20 {
+  height: 5rem;
+}
 .h-\[50rem\] {
   height: 50rem;
 }
@@ -1957,6 +1960,9 @@ html {
 }
 .gap-4 {
   gap: 1rem;
+}
+.overflow-hidden {
+  overflow: hidden;
 }
 .rounded {
   border-radius: 0.25rem;
