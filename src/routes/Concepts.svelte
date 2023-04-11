@@ -18,7 +18,7 @@
         }
     ]
 
-    let backgrounds = ['border-primary', 'border-secondary', 'border-accent']
+    let backgrounds = ['primary', 'secondary', 'accent']
 
 </script>
 <article class="prose prose-xl">
@@ -29,7 +29,7 @@
 
     {#each descriptions as description, i}
         <div class="py-10">
-            <div class="card card-bordered border-8 shadow-xl rounded-2xl max-h-full {backgrounds[i%backgrounds.length]}">
+            <div class="card card-bordered border-8 bg-transparent/50 shadow-xl rounded-2xl max-h-full border-{backgrounds[i%backgrounds.length]}">
                 <figure ><img class="rounded" src="{description.image}"/></figure>
                 <div class="card-body overflow-hidden">
                     <article class="prose prose-xl">
