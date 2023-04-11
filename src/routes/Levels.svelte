@@ -19,7 +19,7 @@
     let backgrounds = ['bg-primary', 'bg-secondary', 'bg-accent']
 </script>
 <article class="prose max-w-none">
-    <h1 class="text-center">LEVELS</h1>
+    <h1 class="text-center">Levels</h1>
     <p>
         Note for enthusiastic & passionate learners:
         KICK ASS level & KICK ASS PRO are oriented towards enthusiastic dancers and passionate learners that want a

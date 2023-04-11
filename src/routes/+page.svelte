@@ -5,12 +5,18 @@
     import Concepts from "./Concepts.svelte";
     import Footer from "./Footer.svelte";
     import Register from "./Register.svelte";
+    import Previous from "./Previous.svelte";
 
     let sections = [{"name": "Description", "component": Description},
         {"name": "Register", "component": Register},
+        {"name": "Previous edition", "component": Previous},
         {"name": "Levels", "component": Levels},
         {"name": "Concepts", "component": Concepts},
     ]
+
+    for (let section of sections){
+        section.id = section.name.replace(" ", "-").toLowerCase();
+    }
 
 </script>
 
@@ -23,7 +29,7 @@
 <div class="navbar-center">
     <ul class="menu menu-vertical lg:menu-horizontal items-center">
         {#each sections as section}
-            <li><a href="#{section.name}">{section.name}</a></li>
+            <li><a href="#{section.id}">{section.name}</a></li>
         {/each}
     </ul>
 </div>
@@ -33,8 +39,7 @@
 <div class="text-2xl p-2">
     <div class="md:container md:mx-auto p-2">
         {#each sections as section}
-            <div id="{section.name}" class="flex flex-col place-items-center">
-
+            <div id="{section.id}" class="flex flex-col place-items-center">
                 <svelte:component this={section.component}/>
 
             </div>
