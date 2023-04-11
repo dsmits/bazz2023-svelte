@@ -18,12 +18,15 @@
     let backgrounds = ['border-primary', 'border-secondary', 'border-accent']
 
 </script>
+<article class="prose max-w-none">
 <div class="content-center text-center">
 <h1>Our Concepts</h1>
 </div>
+</article>
+
     {#each descriptions as description, i}
-<div class="p-2">
-            <div class="card-bordered shadow-xl border-4 rounded-2xl {backgrounds[i%backgrounds.length]}">
+        <div class="py-10">
+            <div class="card-bordered shadow-xl rounded-2xl {backgrounds[i%backgrounds.length]}">
                 <div class="card-body">
                     <h2 class="card-title">
                         {description.name}
@@ -32,5 +35,5 @@
 
                 </div>
             </div>
-</div>
+        </div>
     {/each}

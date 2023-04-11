@@ -1,4 +1,4 @@
-
+<article class="prose max-w-none">
 <h1 class="text-center">Welcome to BAZZ!</h1>
 
 <p>Bad Ass Jazz, a place of sharing, learning, inspiration and celebration of human
@@ -14,3 +14,4 @@
     explore what we can learn from each other and celebrate the richness of Afrocentric body
     movement and language.
 </p>
+</article>

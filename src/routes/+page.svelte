@@ -6,20 +6,23 @@
     import Footer from "./Footer.svelte";
 
     let sections = [Description, Levels, Concepts]
+
 </script>
+
 
 <div class="hero min-h-screen" style="background-image: url({base}/save-the-date.png);">
     <div class="hero-overlay bg-transparent/0"></div>
 </div>
-<div class="divider"></div>
-<div class="md:container md:mx-auto px-4 ">
+<div class="text-2xl">
+<div class="md:container md:mx-auto p-2">
     {#each sections as section}
         <div class="flex flex-col place-items-center">
-            <article class="prose lg:prose-xl">
+
                 <svelte:component this={section} />
-            </article>
+
         </div>
         <div class="divider"></div>
     {/each}
+</div>
 </div>
 <Footer/>
