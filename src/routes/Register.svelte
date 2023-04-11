@@ -7,7 +7,7 @@
     <h1>Registration</h1>
 </article>
 
-<button class="btn btn-accent btn-lg btn-block">
+<button class="btn btn-accent btn-block max-w-prose text-3xl">
 <a href="{registration_link}">
      Register Here!
 </a>

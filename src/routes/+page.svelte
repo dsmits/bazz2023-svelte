@@ -36,8 +36,8 @@
     <div class="navbar-end"></div>
 </div>
 
-<div class="text-2xl p-2">
-    <div class="md:container md:mx-auto p-2">
+
+    <div class="container p-10  text-3xl max-w-prose ">
         {#each sections as section}
             <div id="{section.id}" class="flex flex-col place-items-center">
                 <svelte:component this={section.component}/>
@@ -45,5 +45,5 @@
             <div class="divider"></div>
         {/each}
     </div>
-</div>
+
 <Footer/>

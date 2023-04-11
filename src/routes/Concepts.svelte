@@ -21,14 +21,14 @@
     let backgrounds = ['border-primary', 'border-secondary', 'border-accent']
 
 </script>
-<article class="prose prose-xl max-w-none">
+<article class="prose prose-xl">
 
 <h1 class="text-center">Our Concepts</h1>
 
 </article>
 
     {#each descriptions as description, i}
-        <div class="py-10 max-w-3xl">
+        <div class="py-10">
             <div class="card card-bordered border-8 shadow-xl rounded-2xl h-[50rem]  {backgrounds[i%backgrounds.length]}">
                 <figure ><img class="rounded" src="{description.image}"/></figure>
                 <div class="card-body">
