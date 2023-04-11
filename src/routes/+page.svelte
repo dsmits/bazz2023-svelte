@@ -1,12 +1,16 @@
 <script>
     import Description from './Description.svelte';
     import Levels from './Levels.svelte';
-    import { base } from "$app/paths";
+    import {base} from "$app/paths";
     import Concepts from "./Concepts.svelte";
     import Footer from "./Footer.svelte";
     import Register from "./Register.svelte";
 
-    let sections = [Description, Register, Levels, Concepts]
+    let sections = [{"name": "Description", "component": Description},
+        {"name": "Register", "component": Register},
+        {"name": "Levels", "component": Levels},
+        {"name": "Concepts", "component": Concepts},
+    ]
 
 </script>
 
@@ -14,16 +18,26 @@
 <div class="hero min-h-screen" style="background-image: url({base}/save-the-date.png);">
     <div class="hero-overlay bg-transparent/0"></div>
 </div>
-<div class="text-2xl">
-<div class="md:container md:mx-auto p-2">
-    {#each sections as section}
-        <div class="flex flex-col place-items-center">
+<div class="navbar bg-primary">
 
-                <svelte:component this={section} />
+    <ul class="menu menu-horizontal">
+        {#each sections as section}
+            <li><a href="#{section.name}">{section.name}</a></li>
+        {/each}
+    </ul>
 
-        </div>
-        <div class="divider"></div>
-    {/each}
 </div>
+
+<div class="text-2xl">
+    <div class="md:container md:mx-auto p-2">
+        {#each sections as section}
+            <div id="{section.name}" class="flex flex-col place-items-center">
+
+                <svelte:component this={section.component}/>
+
+            </div>
+            <div class="divider"></div>
+        {/each}
+    </div>
 </div>
 <Footer/>
