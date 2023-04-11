@@ -9,7 +9,7 @@
 
     let sections = [{"name": "Description", "component": Description},
         {"name": "Register", "component": Register},
-        {"name": "Previous edition", "component": Previous},
+        {"name": "Bazz Vibes", "component": Previous},
         {"name": "Levels", "component": Levels},
         {"name": "Concepts", "component": Concepts},
     ]
