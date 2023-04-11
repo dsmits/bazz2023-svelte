@@ -32,7 +32,7 @@
 
 {#each descriptions as description, i}
 <div class="py-10">
-        <div class="card max-w-none shadow-xl card-normal h-20 {backgrounds[i%backgrounds.length]} ">
+        <div class="card max-w-none shadow-xl card-normal max-h-full {backgrounds[i%backgrounds.length]} ">
             <figure><img src="{description.image}" alt="{description.title}"/></figure>
             <div class="card-body overflow-hidden">
                 <article class="prose prose-xl">
