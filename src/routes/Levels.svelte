@@ -31,7 +31,7 @@
 </article>
 
 {#each descriptions as description, i}
-<div class="py-10 px-5 max-w-3xl">
+<div class="py-10 max-w-3xl">
         <div class="card shadow-xl card-normal h-[50rem] {backgrounds[i%backgrounds.length]}">
             <figure><img src="{description.image}" alt="{description.title}"/></figure>
             <div class="card-body">

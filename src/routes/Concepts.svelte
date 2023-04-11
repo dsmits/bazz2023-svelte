@@ -28,7 +28,7 @@
 </article>
 
     {#each descriptions as description, i}
-        <div class="py-10 px-5 max-w-3xl">
+        <div class="py-10 max-w-3xl">
             <div class="card card-bordered border-8 shadow-xl rounded-2xl h-[50rem]  {backgrounds[i%backgrounds.length]}">
                 <figure ><img class="rounded" src="{description.image}"/></figure>
                 <div class="card-body">
