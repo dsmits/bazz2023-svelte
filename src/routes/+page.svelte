@@ -27,7 +27,7 @@
 <div class="navbar bg-primary">
     <div class="navbar-start"></div>
 <div class="navbar-center">
-    <ul class="menu menu-vertical lg:menu-horizontal items-center">
+    <ul class="menu menu-vertical lg:menu-horizontal items-center text-xl">
         {#each sections as section}
             <li><a href="#{section.id}">{section.name}</a></li>
         {/each}
