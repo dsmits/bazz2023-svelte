@@ -21,23 +21,25 @@
     let backgrounds = ['border-primary', 'border-secondary', 'border-accent']
 
 </script>
-<article class="prose max-w-none">
-<div class="content-center text-center">
-<h1>Our Concepts</h1>
-</div>
+<article class="prose prose-xl max-w-none">
+
+<h1 class="text-center">Our Concepts</h1>
+
 </article>
 
     {#each descriptions as description, i}
-        <div class="py-10 py-10 px-5 max-w-3xl">
-            <div class="card-bordered border-8 shadow-xl rounded-2xl h-[50rem]  {backgrounds[i%backgrounds.length]}">
+        <div class="py-10 px-5 max-w-3xl">
+            <div class="card card-bordered border-8 shadow-xl rounded-2xl h-[50rem]  {backgrounds[i%backgrounds.length]}">
                 <figure ><img class="rounded" src="{description.image}"/></figure>
                 <div class="card-body">
+                    <article class="prose prose-xl">
                     <h2 class="card-title">
                         {description.name}
                     </h2>
                     <p>{description.description} </p>
-
+                    </article>
                 </div>
+
             </div>
         </div>
     {/each}

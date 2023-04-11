@@ -18,7 +18,7 @@
     ]
     let backgrounds = ['bg-primary', 'bg-secondary', 'bg-accent']
 </script>
-<article class="prose max-w-none">
+<article class="prose prose-xl prose-xl">
     <h1 class="text-center">Levels</h1>
     <p>
         Note for enthusiastic & passionate learners:
@@ -35,11 +35,12 @@
         <div class="card shadow-xl card-normal h-[50rem] {backgrounds[i%backgrounds.length]}">
             <figure><img src="{description.image}" alt="{description.title}"/></figure>
             <div class="card-body">
+                <article class="prose prose-xl">
                 <h2 class="card-title">
                     {description.title}
                 </h2>
                 <p>{description.description} </p>
-
+                </article>
             </div>
         </div>
 </div>

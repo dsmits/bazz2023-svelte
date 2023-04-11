@@ -1,4 +1,4 @@
-<article class="prose max-w-none">
+<article class="prose prose-xl max-w-none">
 <h1 class="text-center">Welcome to BAZZ!</h1>
 
 <p>Bad Ass Jazz, a place of sharing, learning, inspiration and celebration of human

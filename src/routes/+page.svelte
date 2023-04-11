@@ -41,7 +41,6 @@
         {#each sections as section}
             <div id="{section.id}" class="flex flex-col place-items-center">
                 <svelte:component this={section.component}/>
-
             </div>
             <div class="divider"></div>
         {/each}

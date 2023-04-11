@@ -3,7 +3,7 @@
 
 </script>
 
-<article class="prose py-10">
+<article class="prose prose-xl py-10">
     <h1>Registration</h1>
 </article>
 
