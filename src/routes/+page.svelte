@@ -4,8 +4,9 @@
     import { base } from "$app/paths";
     import Concepts from "./Concepts.svelte";
     import Footer from "./Footer.svelte";
+    import Register from "./Register.svelte";
 
-    let sections = [Description, Levels, Concepts]
+    let sections = [Description, Register, Levels, Concepts]
 
 </script>
 
