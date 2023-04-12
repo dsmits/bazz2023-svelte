@@ -1201,6 +1201,12 @@ html {
   cursor: pointer;
   text-decoration-line: underline;
 }
+.link-hover {
+  text-decoration-line: none;
+}
+.link-hover:hover {
+  text-decoration-line: underline;
+}
 .menu {
   display: flex;
   flex-direction: column;
@@ -1500,6 +1506,12 @@ html {
 }
 .drawer-toggle:focus-visible ~ .drawer-content .drawer-button.btn-accent {
   outline: 2px solid hsl(var(--a));
+}
+.footer-title {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.5;
 }
 .link:focus {
   outline: 2px solid transparent;
@@ -1918,9 +1930,6 @@ html {
 .grow {
   flex-grow: 1;
 }
-.grid-flow-col {
-  grid-auto-flow: column;
-}
 .flex-col {
   flex-direction: column;
 }
@@ -1935,9 +1944,6 @@ html {
 }
 .justify-items-center {
   justify-items: center;
-}
-.gap-4 {
-  gap: 1rem;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -1975,9 +1981,6 @@ html {
 }
 .p-10 {
   padding: 2.5rem;
-}
-.p-4 {
-  padding: 1rem;
 }
 .py-10 {
   padding-top: 2.5rem;
@@ -2044,13 +2047,5 @@ html {
     border-top-right-radius: inherit;
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: unset;
-  }
-}
-@media (min-width: 768px) {
-  .md\:place-self-center {
-    place-self: center;
-  }
-  .md\:justify-self-end {
-    justify-self: end;
   }
 }
