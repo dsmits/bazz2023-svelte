@@ -7,6 +7,7 @@
     import Register from "./Register.svelte";
     import Previous from "./Previous.svelte";
 
+
     let sections = [{"name": "Description", "component": Description},
         {"name": "Register", "component": Register},
         {"name": "Bazz Vibes", "component": Previous},
@@ -14,37 +15,37 @@
         {"name": "Concepts", "component": Concepts},
     ]
 
-    for (let section of sections){
+    for (let section of sections) {
         section.id = section.name.replace(" ", "-").toLowerCase();
     }
 
 </script>
 
 <div class="container">
-<div class="flex">
-<img class="grow"  src="./save-the-date.png" alt="19 to 22 October 2023"/>
-</div>
+    <div class="flex">
+        <img class="grow" src="./save-the-date.png" alt="19 to 22 October 2023"/>
+    </div>
 </div>
 <div class="navbar bg-primary">
     <div class="navbar-start"></div>
-<div class="navbar-center">
-    <ul class="menu menu-vertical lg:menu-horizontal items-center text-xl">
-        {#each sections as section}
-            <li><a href="#{section.id}">{section.name}</a></li>
-        {/each}
-    </ul>
-</div>
+    <div class="navbar-center">
+        <ul class="menu menu-vertical lg:menu-horizontal items-center text-xl">
+            {#each sections as section}
+                <li><a href="#{section.id}">{section.name}</a></li>
+            {/each}
+        </ul>
+    </div>
     <div class="navbar-end"></div>
 </div>
 
 
-    <div class="container p-10  text-3xl max-w-prose ">
-        {#each sections as section}
-            <div id="{section.id}" class="flex flex-col place-items-center">
-                <svelte:component this={section.component}/>
-            </div>
-            <div class="divider"></div>
-        {/each}
-    </div>
+<div class="container p-10  text-3xl max-w-prose ">
+    {#each sections as section}
+        <div id="{section.id}" class="flex flex-col place-items-center">
+            <svelte:component this={section.component}/>
+        </div>
+        <div class="divider"></div>
+    {/each}
+</div>
 
 <Footer/>
