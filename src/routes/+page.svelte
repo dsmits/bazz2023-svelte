@@ -21,8 +21,8 @@
 </script>
 
 
-<div class="hero min-h-screen" style="background-image: url({base}/save-the-date.png);">
-    <div class="hero-overlay bg-transparent/0"></div>
+<div class="flex flex-auto">
+<img src="./save-the-date.png"/>
 </div>
 <div class="navbar bg-primary">
     <div class="navbar-start"></div>
