@@ -1,10 +1,13 @@
-<footer class="footer items-center p-4 bg-neutral text-neutral-content">
-    <div class="items-center grid-flow-col">
+<footer class="footer  p-10 bg-neutral text-neutral-content">
 
-        <p>Copyright © 2023 - All right reserved</p>
+    <div>
+        <span class="footer-title">Contact</span>
+        <p>Phone: +31 6 53577930</p>
+        <p>Email: <a class="link-hover" href="mailto:swingphilosophy@gmail.com ">swingphilosophy@gmail.com </a></p>
+
     </div>
-    <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-
+    <div>
+        <span class="footer-title">Social</span>
         <a href="https://www.instagram.com/bad_ass_jazz_festival/">
             <img class="stroke-2" src="instagram.svg" width="30" height="30"/></a>
     </div>
