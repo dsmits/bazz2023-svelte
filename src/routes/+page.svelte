@@ -20,9 +20,10 @@
 
 </script>
 
-
-<div class="flex flex-auto">
-<img src="./save-the-date.png" alt="19 to 22 October 2023"/>
+<div class="container">
+<div class="flex">
+<img class="grow"  src="./save-the-date.png" alt="19 to 22 October 2023"/>
+</div>
 </div>
 <div class="navbar bg-primary">
     <div class="navbar-start"></div>
