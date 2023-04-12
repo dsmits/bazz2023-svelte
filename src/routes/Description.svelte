@@ -14,4 +14,7 @@
     explore what we can learn from each other and celebrate the richness of Afrocentric body
     movement and language.
 </p>
+    <p>
+        <strong>The festival will take place from 19 to 22 October in the beautiful city of Amsterdam</strong>
+    </p>
 </article>
