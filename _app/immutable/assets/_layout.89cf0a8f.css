@@ -1915,8 +1915,8 @@ html {
 .max-w-prose {
   max-width: 65ch;
 }
-.flex-auto {
-  flex: 1 1 auto;
+.grow {
+  flex-grow: 1;
 }
 .grid-flow-col {
   grid-auto-flow: column;
