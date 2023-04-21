@@ -35,7 +35,7 @@
             "content": [],
 
             "price":
-                ["EUR 80pp"]
+                ["EUR 15pp"]
         }
         ,
         {
