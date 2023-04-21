@@ -6,6 +6,7 @@
     import Footer from "./Footer.svelte";
     import Register from "./Register.svelte";
     import Previous from "./Previous.svelte";
+    import Prices from "./Prices.svelte";
 
 
     let sections = [{"name": "Description", "component": Description},
@@ -13,6 +14,7 @@
         {"name": "Bazz Vibes", "component": Previous},
         {"name": "Levels", "component": Levels},
         {"name": "Concepts", "component": Concepts},
+        {"name": "Prices", "component": Prices}
     ]
 
     for (let section of sections) {
