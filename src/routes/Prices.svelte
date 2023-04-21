@@ -83,10 +83,12 @@
 
 <article class="prose prose-2xl">
     <h1 class="text-center">Prices</h1>
-    <h2>Early bird price available until 15th of May!</h2>
+    <h2 class="text-center">Early bird price available until 15th of May!</h2>
 
-    <table class="table-auto bg-transparent/50">
-        <thead class="border-accent uppercase">
+    <div class="w-screen overflow-x-scroll">
+
+        <table class="bg-transparent/50 overflow-x-scroll">
+        <thead class="border-accent uppercase ">
         <tr>
             <th>Product</th>
             <th>Content</th>
@@ -117,6 +119,7 @@
         </tbody>
 
     </table>
+    </div>
 
 
     <h2>SOLIDARITY FUND</h2>
