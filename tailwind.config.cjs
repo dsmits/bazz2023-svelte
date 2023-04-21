@@ -13,11 +13,11 @@ const config = {
         themes: [
             {
                 bazz: {
-                    "primary": "#9d0f91",
+                    "primary": "#6f218b",
                     "accent": "#f1af2d",
                     "secondary": "#F34213",
                     "neutral": "#6f218b",
-                    "base-100": "#8f794b",
+                    "base-100": "#9d0f91",
                     "info": "#89ADEC",
                     "success": "#78DEBC",
                     "warning": "#91650D",

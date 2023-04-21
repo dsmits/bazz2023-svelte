@@ -21,10 +21,7 @@
 
 </script>
 
-<div class="container">
-    <div class="flex">
-        <img class="grow" src="./save-the-date.png" alt="19 to 22 October 2023"/>
-    </div>
+<div class="hero min-h-screen" style="background-image: url(./save-the-date.png);">
 </div>
 <div class="navbar bg-primary">
     <div class="navbar-start"></div>
@@ -39,13 +36,15 @@
 </div>
 
 
-<div class="container p-10  text-3xl max-w-prose ">
+<div class="container p-10  text-3xl max-w-prose">
+
     {#each sections as section}
         <div id="{section.id}" class="flex flex-col place-items-center">
             <svelte:component this={section.component}/>
         </div>
         <div class="divider"></div>
     {/each}
+
 </div>
 
 <Footer/>
