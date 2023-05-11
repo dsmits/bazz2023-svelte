@@ -69,7 +69,7 @@
   <h1 class="text-center">Prices</h1>
   <h2 class="text-center">Early bird price available until 15th of May!</h2>
 
-  <div class="bg-transparent/50 rounded-2xl p-4 overflow-x-scroll">
+  <div class="bg-transparent/50 rounded-2xl p-4">
     <div class="border-accent uppercase">
       <div class="flex">
         <div class="w-full sm:w-1/3 font-bold p-2">Sessions</div>
