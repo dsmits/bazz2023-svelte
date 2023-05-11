@@ -72,7 +72,7 @@
   <div class="bg-transparent/50 rounded-2xl p-4">
     <div class="border-accent uppercase">
       <div class="flex">
-        <div class="w-full sm:w-1/3 font-bold p-2">Sessions</div>
+        <div class="w-full sm:w-1/3 font-bold p-2">Package</div>
         <div class="w-full sm:w-1/3 font-bold p-2">Content</div>
         <div class="w-full sm:w-1/3 font-bold p-2">Price</div>
       </div>
