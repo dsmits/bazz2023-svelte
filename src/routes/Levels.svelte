@@ -16,7 +16,7 @@
             'image': 'CHILLAX.jpg'
         }
     ]
-    let backgrounds = ['bg-primary', 'bg-secondary', 'bg-accent']
+    let backgrounds = ['primary', 'secondary', 'accent']
 </script>
 <article class="prose prose-xl">
     <h1 class="text-center">Levels</h1>
@@ -32,11 +32,11 @@
 
 {#each descriptions as description, i}
 <div class="py-10">
-        <div class="card max-w-none shadow-xl card-normal max-h-full  {backgrounds[i%backgrounds.length]}-focus ">
+        <div class="card max-w-none shadow-xl card-normal max-h-full bg-{backgrounds[i%backgrounds.length]}">
             <figure><img src="{description.image}" alt="{description.title}"/></figure>
             <div class="card-body overflow-hidden">
-                <article class="prose prose-xl">
-                <h2 class="card-title">
+                <article class="prose prose-xl text-{backgrounds[i%backgrounds.length]}-content">
+                <h2 class="card-title text-{backgrounds[i%backgrounds.length]}-content">
                     {description.title}
                 </h2>
                 <p>{description.description} </p>
