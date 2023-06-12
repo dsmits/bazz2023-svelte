@@ -9,7 +9,7 @@
         "2h BAZZ Buzz",
       ],
       price: [
-        "Early bird €170pp (payment needs to be in before 15th of May) ",
+
         "Regular price 190pp",
       ],
     },
@@ -22,7 +22,7 @@
         "2h BAZZ Buzz",
       ],
       price: [
-        "Early bird €120pp (payment needs to be in before 15th of May)",
+
         " Regular price €140pp",
       ],
     },
@@ -67,7 +67,6 @@
 
 <article class="prose-2xl">
   <h1 class="text-center">Prices</h1>
-  <h2 class="text-center">Early bird price available until 15th of May!</h2>
 
   <div class="bg-transparent/50 rounded-2xl p-4">
     <div class="border-accent uppercase">
