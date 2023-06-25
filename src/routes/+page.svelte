@@ -22,9 +22,10 @@
     }
 
 </script>
-
-<div class="hero min-h-screen" style="background-image: url(./save-the-date.png);">
+<div>
+    <img src="banner.png" class="min-w-full"/>
 </div>
+
 <div class="navbar bg-primary">
     <div class="navbar-start"></div>
     <div class="navbar-center">
