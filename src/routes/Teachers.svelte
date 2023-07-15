@@ -46,17 +46,7 @@
 
             </div>
         </div>
-        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            {#if i <= 0}
-                <a href="#slide-{teachers.length-1}" class="btn btn-circle">❮</a>
-                {:else }
-            <a href="#slide-{(i-1) % teachers.length}" class="btn btn-circle">❮</a>
-                {/if}
 
-
-            <a href="#slide-{(i+1) % teachers.length}" class="btn btn-circle">❯</a>
-
-        </div>
     </div>
 
 
