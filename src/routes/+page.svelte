@@ -7,10 +7,12 @@
     import Register from "./Register.svelte";
     import Previous from "./Previous.svelte";
     import Prices from "./Prices.svelte";
+    import Teachers from "./Teachers.svelte";
 
 
     let sections = [{"name": "Description", "component": Description},
         {"name": "Register", "component": Register},
+        {"name": "Teachers", "component": Teachers},
         {"name": "Bazz Vibes", "component": Previous},
         {"name": "Levels", "component": Levels},
         {"name": "Concepts", "component": Concepts},
