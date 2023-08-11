@@ -8,15 +8,17 @@
     import Previous from "./Previous.svelte";
     import Prices from "./Prices.svelte";
     import Teachers from "./Teachers.svelte";
+    import Schedules from "./Schedules.svelte";
 
 
     let sections = [{"name": "Description", "component": Description},
         {"name": "Register", "component": Register},
         {"name": "Teachers", "component": Teachers},
-        {"name": "Bazz Vibes", "component": Previous},
+        {"name": "Schedules", "component": Schedules},
         {"name": "Levels", "component": Levels},
         {"name": "Concepts", "component": Concepts},
-        {"name": "Prices", "component": Prices}
+        {"name": "Prices", "component": Prices},
+        {"name": "Bazz Vibes", "component": Previous},
     ]
 
     for (let section of sections) {
