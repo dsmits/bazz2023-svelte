@@ -2372,6 +2372,10 @@ html {
 .max-w-prose {
   max-width: 65ch;
 }
+.columns-2 {
+  -moz-columns: 2;
+       columns: 2;
+}
 .flex-col {
   flex-direction: column;
 }
@@ -2392,6 +2396,9 @@ html {
 }
 .gap-2 {
   gap: 0.5rem;
+}
+.gap-8 {
+  gap: 2rem;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -2436,6 +2443,9 @@ html {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--p) / var(--tw-bg-opacity));
 }
+.bg-transparent {
+  background-color: transparent;
+}
 .bg-transparent\/50 {
   background-color: rgb(0 0 0 / 0.5);
 }
@@ -2461,6 +2471,14 @@ html {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .text-center {
   text-align: center;
