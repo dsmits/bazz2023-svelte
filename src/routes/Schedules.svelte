@@ -18,14 +18,14 @@
         {
             "name": "Kickass",
             "id": "kickass",
-        "image": "kickass.png"
+            "image": "kickass.png"
 
         },
         {
             "name": "Bazz Pro",
             "id": "bazz_pro",
 
-        "image": "bazz_pro.png"
+            "image": "bazz_pro.png"
         },
 
     ]
@@ -38,7 +38,7 @@
     {#each schedules as schedule}
         <div class="py-4 bg-transparent">
 
-            <a href="schedules/{schedule.id}.png" ><img src="schedules/{schedule.image}" alt="{schedule.name} schedule"></a>
+            <a href="schedules/{schedule.image}"><img src="schedules/{schedule.image}" alt="{schedule.name} schedule"></a>
         </div>
     {/each}
 </div>
