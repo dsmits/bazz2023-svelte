@@ -1,5 +1,5 @@
 <script>
-    let registration_link = "https://forms.gle/i6rYWdgsbjoinMAq9"
+    let registration_link = "https://docs.google.com/forms/d/e/1FAIpQLScb0MnvIB_Qg5puv-7l45BpZXOmMrlhVPfrzWm9PQ2E-2Mosg/viewform?usp=sf_link"
 
 </script>
 
