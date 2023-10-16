@@ -9,10 +9,12 @@
     import Prices from "./Prices.svelte";
     import Teachers from "./Teachers.svelte";
     import Schedules from "./Schedules.svelte";
+    import Booklet from "./Booklet.svelte";
 
 
     let sections = [{"name": "Description", "component": Description},
         {"name": "Register", "component": Register},
+        {"name": "Booklet", "component": Booklet},
         {"name": "Teachers", "component": Teachers},
         {"name": "Schedules", "component": Schedules},
         {"name": "Levels", "component": Levels},
