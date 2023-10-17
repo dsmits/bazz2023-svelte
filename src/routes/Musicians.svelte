@@ -5,12 +5,12 @@
         {
             "name": "Original Praque Syncopated Orchestra",
             "description": "OPSO is a Czech jazz band formed in Prague, in what was then Czechoslovakia, in 1974. It is best known for painstaking reconstructions of performances of music of the 1920s, using authentic instruments, and improvisation in the style of the time. On friday they will be accompanied by Sam Ghezzi on vocals.",
-            "image": "bands/original_prague_syncopated_orchestra.jpeg"
+            "image": "musicians/original_prague_syncopated_orchestra.jpeg"
         },
         {
             "name": "Gumbo Night Band",
             "description": "Gumbo Night has been the household name in Amsterdam's party scene for over a decade, playing tribute to the magical city of New Orleans: the birthplace of Jazz, Rhythm & Blues & Funk! Our Gumbo Night band Cats can play all of it! ;) effortlessly guiding us from one groove to another, what these boys will play next during their set remains the most fun guessing game! Get ready to be immersed in the celebration of New Orleans sounds, atmosphere, and yes, even the taste! Prepare your kicks, hops, skips, jumps, slaps, claps and be ready for a fiery party!",
-            "image": "bands/gumbo_night_band.jpeg"
+            "image": "musicians/gumbo_night_band.jpeg"
         },
         {
             "name": "Sachee",
@@ -20,7 +20,7 @@
                 "A mix of creative genius, norm-breaking and shattering of expectations, Sachee captures ears " +
                 "and opens eyes. Through the combination of different cultural and musical backgrounds, this " +
                 "coming together of minds and vibes is utterly singular, and something to pay close attention to.",
-            "image": "bands/sachee.jpeg"
+            "image": "musicians/sachee.jpeg"
         },
     ]
 
