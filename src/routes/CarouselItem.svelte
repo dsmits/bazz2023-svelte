@@ -1,9 +1,9 @@
 <script>
-    export let id;
     export let image;
     export let name;
     export let description;
     export let width;
+    export let id = undefined;
 </script>
 
 <div id="{id}" class="carousel-item {width}">

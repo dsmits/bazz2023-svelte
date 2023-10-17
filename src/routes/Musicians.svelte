@@ -3,6 +3,11 @@
 
     let items = [
         {
+            "name": "Sam Ghezzi",
+            "description": "Sam Ghezzi will be our MC for the festival! This multi talented charming gentleman wears all the hats - Jazz and Blues singer, musician, composer, bandleader, MC! Next to playing flute, saxophone, and harmonica, he just has one of the most charismatic smiles and vibrant personality! Watch out, Sam and his enery are contagious!",
+            "image": "musicians/sam_ghezzi.jpeg"
+        },
+        {
             "name": "Original Praque Syncopated Orchestra",
             "description": "OPSO is a Czech jazz band formed in Prague, in what was then Czechoslovakia, in 1974. It is best known for painstaking reconstructions of performances of music of the 1920s, using authentic instruments, and improvisation in the style of the time. On friday they will be accompanied by Sam Ghezzi on vocals.",
             "image": "musicians/original_prague_syncopated_orchestra.jpeg"
@@ -27,7 +32,7 @@
 </script>
 <article class="prose prose-xl">
     <h1 class="text-center">Musicians</h1>
-<p></p>
+    <p></p>
 </article>
 
 <Carousel items="{items}" itemWidth="w-full" name="musicians"></Carousel>
