@@ -30,4 +30,4 @@
 <p></p>
 </article>
 
-<Carousel items="{items}" itemWidth="w-full" name="bands"></Carousel>
+<Carousel items="{items}" itemWidth="w-full" name="musicians"></Carousel>
