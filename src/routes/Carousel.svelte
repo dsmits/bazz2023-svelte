@@ -1,5 +1,6 @@
 <script>
     import CarouselItem from './CarouselItem.svelte';
+
     export let itemWidth = "w-96"
     export let items;
     export let name;

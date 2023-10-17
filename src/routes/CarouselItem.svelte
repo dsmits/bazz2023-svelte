@@ -10,17 +10,23 @@
     <div class="card card-compact bg-base-100 shadow-xl">
         <figure><img src="{image}" alt="{name}"/></figure>
         <div class="card-body">
-            <h2 class="card-title">{name}</h2>
+            <article class="prose prose-xl">
+                <h2>{name}</h2>
+                <p></p>
+            </article>
             <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
 
                 <div class="collapse-title text-xl font-medium">
                     More info
                 </div>
                 <div class="collapse-content">
-                    <p>{description}</p>
+                    <article class="prose prose-xl">
+                        <p>{description}</p>
+                    </article>
                 </div>
 
             </div>
+
         </div>
     </div>
 
