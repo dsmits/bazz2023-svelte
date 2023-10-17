@@ -59,4 +59,4 @@
 
 </article>
 
-<Carousel items="{teachers}"></Carousel>
+<Carousel items="{teachers}" name="teachers"></Carousel>

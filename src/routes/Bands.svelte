@@ -23,10 +23,11 @@
             "image": "bands/sachee.jpeg"
         },
     ]
+
 </script>
 <article class="prose prose-xl">
     <h1 class="text-center">Musicians</h1>
 <p></p>
 </article>
 
-<Carousel items="{items}" itemWidth="w-full"></Carousel>
+<Carousel items="{items}" itemWidth="w-full" name="bands"></Carousel>
