@@ -1,4 +1,6 @@
 <script>
+    import Carousel from "./Carousel.svelte";
+
     let teachers = [
         {
             "name": "Remy Kouakou Kouame",
@@ -56,35 +58,5 @@
     <h1 class="text-center">Teachers</h1>
 
 </article>
-<div class="carousel w-full rounded-box">
-    {#each teachers as teacher, i}
 
-        <div id="slide-{i}" class="carousel-item">
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
-                <figure><img src="{teacher.image}" alt="{teacher.name}"/></figure>
-                <div class="card-body">
-                    <h2 class="card-title">{teacher.name}</h2>
-                    <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-200">
-
-                        <div class="collapse-title text-xl font-medium">
-                           More info
-                        </div>
-                        <div class="collapse-content">
-                            <p>{teacher.description}</p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-    {/each}
-
-</div>
-<div class="flex justify-center w-full py-2 gap-2">
-    {#each teachers as teacher, i}
-        <a href="#slide-{i}" class="btn btn-xs">{i + 1}</a>
-    {/each}
-</div>
+<Carousel items="{teachers}"></Carousel>
