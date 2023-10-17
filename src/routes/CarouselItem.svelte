@@ -6,8 +6,8 @@
     export let width;
 </script>
 
-<div id="{id}" class="carousel-item">
-    <div class="card card-compact {width} bg-base-100 shadow-xl">
+<div id="{id}" class="carousel-item {width}">
+    <div class="card card-compact bg-base-100 shadow-xl">
         <figure><img src="{image}" alt="{name}"/></figure>
         <div class="card-body">
             <h2 class="card-title">{name}</h2>
